@@ -1,0 +1,24 @@
+properties = margin padding
+sides = top right bottom left
+values = (0..20)
+
+for property in properties
+	.{property}-auto
+		{property} auto !important
+	for value in values
+		.{property}-{value*5}
+			{property} value*5px !important
+	for side in sides
+		.{property}-{side}-auto
+			{property}-{side} auto !important
+		for value in values
+			.{property}-{side}-{value*5}
+				{property}-{side} value*5px !important
+	for value-x in values
+		.{property}-auto-{value-x*5}
+			{property} auto value-x*5px !important
+		.{property}-{value-x*5}-auto
+			{property} value-x*5px auto !important
+		for value-y in values
+			.{property}-{value-x*5}-{value-y*5}
+				{property} value-x*5px value-y*5px !important

@@ -1,0 +1,61 @@
+<form name="PostForm" action="" >
+    <div class="col s9">
+        <div class="input-field col s12">
+            <h6  class="active" for="name">{{ 'name' | language:true }}</h6>
+            <input ng-model="post.name" id="name" type="text" validator="required">
+        </div>
+    </div>
+    <div class="col s3 right-align padding-right-20">
+        <button class="btn-floating waves-effect waves-light btn-small green" validation-submit="PostForm" ng-click="sendForm()" >
+            <i class="fa fa-check"></i>
+        </button>
+    </div>
+    <div class="col s12">
+        <div class="input-field col s12">
+            <h6>{{ 'category' | language:true }}</h6>
+            <select  ng-model="post.category_id" id="category_id" class="validate browser-default" validator="required">
+                <option value="{{ category.id }}" ng-repeat="category in categories">{{ category.name }}</option>
+            </select>
+        </div>
+    </div>
+    <div class="col s12">
+        <div class="input-field col s12">
+            <h6>{{ 'excerpt' | language:true }}</h6>
+            <textarea id="excerpt"  validator="required" class="materialize-textarea" length="140"  maxlength="140" ng-model="post.excerpt" ng-init="initTextarea('#excerpt')"></textarea>
+        </div>
+    </div>
+    <div  class="col s12">
+        <div class="input-field col s12">
+            <h6>{{ 'content' | language:true }}</h6>
+            <textarea  validator="required" id="content" class="materialize-textarea" ng-model="post.content"></textarea>
+        </div>
+    </div>
+    <div  class="col s12">
+        <h5 class="col s9">{{ 'custom_fields' | language:true }}</h5>
+        <div class="col s3 right-align padding-right-20">
+            <a href="" class="btn-floating waves-effect waves-light btn-small green" ng-click="addCustomField()">
+                <i class="fa fa-plus"></i>
+            </a>
+        </div>
+        <table class="striped">
+            <tr>
+                <th data-field="field">{{ 'field' | language:true }}</th>
+                <th data-field="value">{{ 'value' | language:true }}</th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="data in post.custom_fields">
+                <td>
+                    <input ng-model="data.name" type="text" class="validate">
+                </td>
+                <td>
+                    <textarea class="materialize-textarea" ng-model="data.value"></textarea>
+                </td>
+                <td class="right-align padding-right-20">
+                    <a href="#/posts/{{ post.id }}"class="btn-floating waves-effect waves-light btn-small red">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

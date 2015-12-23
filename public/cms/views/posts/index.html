@@ -1,0 +1,50 @@
+
+<h3 class="col s9"> {{ 'posts' | language:true }}</h3>
+<div class="col s3 right-align padding-right-20">
+    <a href="#/posts/create" class="btn-floating waves-effect waves-light btn-small green">
+        <i class="fa fa-plus"></i>
+    </a>
+</div>
+
+<table class="responsive-table striped">
+    <thead>
+    <tr class="row">
+        <th data-field="id">{{ 'id' | language:true }}</th>
+        <th data-field="name">{{ 'name' | language:true }}</th>
+        <th data-field="available">{{ 'available' | language:true }}</th>
+        <th data-field="category">{{ 'category' | language:true }}</th>
+        <th data-field="excerpt">{{ 'excerpt' | language:true }}</th>
+        <th data-field="created_date">{{ 'created_date' | language:true }}</th>
+        <th data-field="created_date">{{ 'created_date' | language:true }}</th>
+        <th data-field="actions"></th>
+        <th data-field="actions"></th>
+        <th data-field="actions"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="post in posts">
+        <td>{{ post.id }}</td>
+        <td>{{ post.name }}</td>
+        <td>{{ post.available }}</td>
+        <td><a href="#/categories/{{ post.category_id }}">{{ post.category.name }}</a></td>
+        <td>{{ post.excerpt }}</td>
+        <td>{{ post.created_at | date }}</td>
+        <td>{{ post.created_at | date }}</td>
+        <td class="right-align padding-right-20">
+            <a href="#/posts/{{ post.id }}" class="btn-floating waves-effect waves-light btn-small green">
+                <i class="fa fa-eye"></i>
+            </a>
+        </td>
+        <td class="right-align padding-right-20">
+            <a href="#/posts/{{ post.id }}/edit"class="btn-floating waves-effect waves-light btn-small blue">
+                <i class="fa fa-pencil-square-o"></i>
+            </a>
+        </td>
+        <td class="right-align padding-right-20">
+            <a href="#/posts/{{ post.id }}"class="btn-floating waves-effect waves-light btn-small red">
+                <i class="fa fa-trash"></i>
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+{
+  "name": "cms-laravel-front",
+  "version": "1.0.0",
+  "description": "Simple CMS Laravel Front",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iram Gutiérrez <iramgutzglez@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nib": "^1.1.0",
+    "stylus": "^0.53.0"
+  }
+}
