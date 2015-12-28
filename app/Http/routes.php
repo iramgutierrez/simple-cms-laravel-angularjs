@@ -28,4 +28,8 @@ Route::group(['middleware' => ['web']], function () {
     //
 });
 
-Route::resource('posts' , 'PostController');
+Route::resource('posts', 'PostController');
+
+Route::post('posts/upload-image' , [
+    'uses' => 'PostController@uploadImage'
+]);

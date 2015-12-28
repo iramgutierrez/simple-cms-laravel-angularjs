@@ -16,7 +16,7 @@ class CustomFieldEntity extends BaseEntity
      *
      * @var array
      */
-    protected $fillable = [ 'id' , 'post_id','field' , 'slug', 'value' ];
+    protected $fillable = ['id', 'post_id', 'field', 'slug', 'value'];
 
     /**
      * The attributes excluded from the model's JSON form.

@@ -10,16 +10,17 @@ use IG\Validators\PostValidator as Validator;
  * Class PostRepository
  * @package IG\Repositories
  */
-class PostManager extends BaseManager{
+class PostManager extends BaseManager
+{
 
 
     /**
      * @param Entity $Entity
      * @param Category $Category
      */
-    public function __construct(Entity $Entity , Validator $Validator)
+    public function __construct(Entity $Entity, Validator $Validator)
     {
-        parent::__construct($Entity , $Validator);
+        parent::__construct($Entity, $Validator);
     }
 
     /**
@@ -29,19 +30,16 @@ class PostManager extends BaseManager{
     {
         $response = parent::save($data);
 
-        if($response instanceof Entity)
-        {
+        if ($response instanceof Entity) {
 
             $response->custom_fields()->delete();
 
             $custom_fields = [];
 
-            foreach($this->data['custom_fields'] as $field)
-            {
+            foreach ($this->data['custom_fields'] as $field) {
                 $field['field'] = isset($field['name']) ? $field['name'] : '';
 
-                if(!empty($field['field']))
-                {
+                if (!empty($field['field'])) {
                     $field['slug'] = str_slug($field['field']);
 
                     array_push(
@@ -63,19 +61,16 @@ class PostManager extends BaseManager{
     {
         $response = parent::update($data);
 
-        if($response instanceof Entity)
-        {
+        if ($response instanceof Entity) {
 
             $response->custom_fields()->delete();
 
             $custom_fields = [];
 
-            foreach($this->data['custom_fields'] as $field)
-            {
+            foreach ($this->data['custom_fields'] as $field) {
                 $field['field'] = isset($field['name']) ? $field['name'] : '';
 
-                if(!empty($field['field']))
-                {
+                if (!empty($field['field'])) {
                     $field['slug'] = str_slug($field['field']);
 
                     array_push(
@@ -101,8 +96,7 @@ class PostManager extends BaseManager{
     {
         $data = $this->data;
 
-        if(isset($data['name']))
-        {
+        if (isset($data['name'])) {
             $data['slug'] = str_slug($data['name']);
         }
 

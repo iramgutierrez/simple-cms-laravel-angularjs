@@ -31,7 +31,7 @@ class BaseManager
      * @param Entity $Entity
      * @param Validator $Validator
      */
-    public function __construct(Entity $Entity , Validator $Validator)
+    public function __construct(Entity $Entity, Validator $Validator)
     {
         $this->entity = $Entity;
 
@@ -50,17 +50,14 @@ class BaseManager
 
         $isValid = $this->validator->isValid($this->data);
 
-        if($isValid)
-        {
+        if ($isValid) {
             $this->entity->fill($this->data);
 
             $this->entity->save();
 
             return $this->entity;
 
-        }
-        else
-        {
+        } else {
 
             return $this->validator->getErrors();
 
@@ -79,17 +76,14 @@ class BaseManager
 
         $isValid = $this->validator->isValid($this->data);
 
-        if($isValid)
-        {
+        if ($isValid) {
 
             $fillable = $this->entity->getFillable();
 
             $data = $this->data;
 
-            foreach($data as $k => $v)
-            {
-                if(in_array($k , $fillable))
-                {
+            foreach ($data as $k => $v) {
+                if (in_array($k, $fillable)) {
                     $this->entity->$k = $v;
                 }
             }
@@ -98,9 +92,7 @@ class BaseManager
 
             return $this->entity;
 
-        }
-        else
-        {
+        } else {
 
             return $this->validator->getErrors();
 

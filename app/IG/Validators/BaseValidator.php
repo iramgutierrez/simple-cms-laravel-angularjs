@@ -74,16 +74,13 @@ abstract class BaseValidator
     {
         $this->data = $data;
 
-        if ($this->entity->exists)
-        {
+        if ($this->entity->exists) {
             $this->rules = $this->getUpdateRules();
-        }
-        else
-        {
+        } else {
             $this->rules = $this->getCreateRules();
         }
 
-        $rules = $this-> getRules();
+        $rules = $this->getRules();
 
         $validation = \Validator::make($data, $rules);
 

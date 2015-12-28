@@ -16,7 +16,7 @@ class CategoryEntity extends BaseEntity
      *
      * @var array
      */
-    protected $fillable = [ 'id' , 'name' , 'slug' ];
+    protected $fillable = ['id', 'name', 'slug'];
 
     /**
      * The attributes excluded from the model's JSON form.
