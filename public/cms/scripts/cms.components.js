@@ -17,3 +17,11 @@ angular.module('cms.components', [])
             controller: 'CategoryFormController'
         };
     })
+    .directive('cmsMenu', function() {
+        return {
+            restrict: 'E',
+            scope: '&',
+            templateUrl: '/cms/components/menu.html',
+            controller: 'MenuController'
+        };
+    })

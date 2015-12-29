@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -68,5 +70,20 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    public function login(Request $request){
+
+        $data = Input::only('email', 'password');
+
+        $credentials = ['email' => $data['email'], 'password' => $data['password']];
+
+        if (\Auth::attempt($credentials))
+        {   //dd(\Auth::user());
+            return response()->json(["success" => true],200);
+        }
+
+        return response()->json(["success" => false],401);
+
     }
 }

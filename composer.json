@@ -24,7 +24,7 @@
     ],
     "psr-4": {
       "App\\": "app/",
-      "IG\\": "app/IG"
+      "CMS\\": "app/CMS"
     }
   },
   "autoload-dev": {

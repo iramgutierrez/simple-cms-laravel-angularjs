@@ -17,26 +17,7 @@
 
 <body ng-app="cms">
 
-        <header>
-            <div class="navbar-fixed">
-                <nav>
-                    <div class="nav-wrapper container">
-                        <a href="#!" class="brand-logo">{{ 'company' | language:true }}</a>
-                        <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="#/posts">{{ 'posts' | language:true }}</a></li>
-                            <li><a href="#/categories">{{ 'categories' | language:true }}</a></li>
-                            <li><a href="collapsible.html">{{ 'logout' | language:true }}</a></li>
-                        </ul>
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a href="#/posts">{{ 'posts' | language:true }}</a></li>
-                            <li><a href="#/categories">{{ 'categories' | language:true }}</a></li>
-                            <li><a href="collapsible.html">{{ 'logout' | language:true }}</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <cms-menu></cms-menu>
 
         <div class="container">
             <div class="row">
@@ -56,8 +37,10 @@
         <script type="text/javascript" src="scripts/cms.js"></script>
         <script type="text/javascript" src="scripts/cms.config.js"></script>
         <script type="text/javascript" src="scripts/cms.language.js"></script>
+        <script type="text/javascript" src="scripts/cms.middleware.js"></script>
         <script type="text/javascript" src="scripts/cms.routes.js"></script>
         <script type="text/javascript" src="scripts/cms.components.js"></script>
+        <script type="text/javascript" src="controllers/user.controllers.js"></script>
         <script type="text/javascript" src="controllers/post.controllers.js"></script>
         <script type="text/javascript" src="controllers/category.controllers.js"></script>
         <script type="text/javascript" src="services/post.services.js"></script>

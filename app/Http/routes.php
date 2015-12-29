@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', ['uses' => 'HomeController@index']);
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -25,7 +23,7 @@ Route::get('/', ['uses' => 'HomeController@index']);
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    
 });
 
 Route::resource('posts' , 'PostController');
@@ -35,3 +33,14 @@ Route::resource('categories' , 'CategoryController');
 Route::post('posts/upload-image' , [
     'uses' => 'PostController@uploadImage'
 ]);
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
+
+    Route::get('checkLogin' , function(){
+
+        return response()->json(["loggedIn" => \Auth::check() ]);
+    });
+});

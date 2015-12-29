@@ -5,21 +5,27 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use CMS\Repositories\PostRepository as Repository;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
-    protected $repository;
-
-    public function __construct(Repository $Repository)
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
     {
-        $this->repository = $Repository;
+        $this->middleware('auth');
     }
 
-    public function index(Request $request)
+    /**
+     * Show the application dashboard.
+     *
+     * @return Response
+     */
+    public function index()
     {
-        $skills = $this->repository->getByCategory('skills');
-
-        return response()->json($skills);
+        return view('home');
     }
 }

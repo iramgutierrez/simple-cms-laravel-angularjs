@@ -1,21 +1,27 @@
 'use strict'
 
-angular.module('cms.routes', [
-    'ngRoute'
-])
-    .config(['$routeProvider', function ($routeProvider) {
+angular.module('cms.routes', [])
+    .config(['$routeProvider' , 'checkLoginProvider', function ($routeProvider , checkLoginProvider) {
+
+        var checkLoggedIn = checkLoginProvider.$get;
 
         $routeProvider
+            .when('/login', {
+                templateUrl: "views/users/login.html",
+                controller: "LoginController"
+            })
             .when('/', {
                 templateUrl: "views/posts/index.html",
                 controller: "PostIndexController",
-                resolve: {}
+                resolve: {
+                    loggedIn: checkLoggedIn
+                }
             })
             .when('/posts' , {
                 templateUrl: "views/posts/index.html",
                 controller: "PostIndexController",
                 resolve : {
-
+                    loggedIn: checkLoggedIn
                 }
             })
             .when('/posts/create' , {
