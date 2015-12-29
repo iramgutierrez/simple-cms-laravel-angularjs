@@ -6,6 +6,14 @@ angular.module('cms.components' , [])
             restrict: 'E',
             scope: '&',
             templateUrl: '/cms/views/posts/components/form.html',
-            controller: 'FormController'
+            controller: 'PostFormController'
+        };
+    })
+    .directive('categoryForm', function() {
+        return {
+            restrict: 'E',
+            scope: '&',
+            templateUrl: '/cms/views/categories/components/form.html',
+            controller: 'CategoryFormController'
         };
     })

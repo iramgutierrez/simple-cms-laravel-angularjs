@@ -1,0 +1,13 @@
+
+    <div class="col s9">
+        <h5>{{ 'name' | language:true }}</h5>
+        <p class="padding-left-30"> {{ category.name }}</p>
+    </div>
+    <div class="col s3 right-align">
+        <a href="#/categories/{{ category.id }}/edit"class="btn-floating waves-effect waves-light btn-small blue">
+            <i class="fa fa-pencil-square-o"></i>
+        </a>
+        <a ng-click="delete(category.id)" class="btn-floating waves-effect waves-light btn-small red">
+            <i class="fa fa-trash"></i>
+        </a>
+    </div>

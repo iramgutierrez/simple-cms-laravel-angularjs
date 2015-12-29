@@ -29,3 +29,6 @@ Route::group(['middleware' => ['web']], function () {
 });
 
 Route::resource('posts' , 'PostController');
+
+Route::resource('categories' , 'CategoryController');
+

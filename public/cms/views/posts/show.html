@@ -7,7 +7,7 @@
         <a href="#/posts/{{ post.id }}/edit"class="btn-floating waves-effect waves-light btn-small blue">
             <i class="fa fa-pencil-square-o"></i>
         </a>
-        <a href="#/posts/{{ post.id }}"class="btn-floating waves-effect waves-light btn-small red">
+        <a ng-click="delete(post.id)" class="btn-floating waves-effect waves-light btn-small red">
             <i class="fa fa-trash"></i>
         </a>
     </div>

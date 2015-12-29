@@ -109,4 +109,25 @@ class BaseController extends Controller
 
         return response()->json(['error' => 'Server error. Try Again' ],500);
     }
+
+    public function destroy(Request $request , $id)
+    {
+        $resource = $this->repository->findById($id);
+
+        if(!$resource)
+        {
+            return response()->json(['error' => 'Entity not found'] , 404);
+        }
+
+        $this->manager->setEntity($resource);
+
+        $response = $this->manager->delete();
+
+        if($response){
+
+            return response()->json(['success' => 'Entity deleted'], 200);
+        }
+
+        return response()->json(['error' => 'Server error. Try Again' ],500);
+    }
 }

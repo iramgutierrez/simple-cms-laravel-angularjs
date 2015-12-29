@@ -1,27 +1,27 @@
 'use strict'
 
-angular.module('post.controllers' , [])
-    .controller('PostIndexController' , ['$scope' , '$http' , 'Post' , '$filter', function($scope , $http , Post , $filter){
+angular.module('category.controllers' , [])
+    .controller('CategoryIndexController' , ['$scope' , '$http' , 'Category' , '$filter', function($scope , $http , Category , $filter){
 
-        $scope.posts = [];
+        $scope.categories = [];
 
-        Post.all()
-            .$promise.then(function(posts) {
+        Category.all()
+            .$promise.then(function(categories) {
 
-                $scope.posts = posts;
+                $scope.categories = categories;
 
             });
 
         $scope.delete = function(id , k)
         {
-            Post.delete({id : id})
+            Category.delete({id : id})
                 .$promise.then(
-                    function(post){
+                    function(category){
 
-                        $scope.posts.splice(k , 1);
+                        $scope.categories.splice(k , 1);
 
                         Materialize.toast(
-                            $('<span>' + $filter('language')('post_deleted' , true) + '</span>'),
+                            $('<span>' + $filter('language')('category_deleted' , true) + '</span>'),
                             1000
                         );
                     },
@@ -38,26 +38,26 @@ angular.module('post.controllers' , [])
 
 
     }])
-    .controller('PostCreateController' , ['$scope' , '$http' , 'Post' , '$filter' , '$location', function($scope , $http , Post , $filter , $location){
+    .controller('CategoryCreateController' , ['$scope' , '$http' , 'Category' , '$filter' , '$location', function($scope , $http , Category , $filter , $location){
 
-        $scope.post = {
+        $scope.category = {
             custom_fields : []
         };
 
         $scope.sendForm = function() {
 
-            Post.save($scope.post)
+            Category.save($scope.category)
                 .$promise.then(
-                    function(post) {
-                        if(angular.isDefined(post.id))
+                    function(category) {
+                        if(angular.isDefined(category.id))
                         {
                             Materialize.toast(
-                                $('<span>' + $filter('language')('post_saved' , true) + '</span>'),
+                                $('<span>' + $filter('language')('category_saved' , true) + '</span>'),
                                 1000,
                                 '',
                                 function()
                                 {
-                                    $scope.$apply(function() {  $location.path('/posts/'+post.id); })
+                                    $scope.$apply(function() {  $location.path('/categories'); })
                                 }
 
                             );
@@ -96,24 +96,24 @@ angular.module('post.controllers' , [])
 
         $scope.deleteCustomField = function(k)
         {
-            $scope.post.custom_fields.splice(k , 1);
+            $scope.category.custom_fields.splice(k , 1);
         }
 
     }])
-    .controller('PostShowController' , ['$scope' , '$http' , 'Post' , '$routeParams', '$filter' , '$location', function($scope , $http , Post , $routeParams , $filter , $location){
+    .controller('CategoryShowController' , ['$scope' , '$http' , 'Category' , '$routeParams', '$filter' , '$location', function($scope , $http , Category , $routeParams , $filter , $location){
 
-        $scope.post = {};
+        $scope.category = {};
 
-        Post.get({id : $routeParams.id})
+        Category.get({id : $routeParams.id})
             .$promise.then(
-                function(post) {
+                function(category) {
 
-                    $scope.post = post;
+                    $scope.category = category;
 
                 },
                 function(err)
                 {
-                    $location.path('/posts');
+                    $location.path('/categories');
                 }
             );
 
@@ -124,17 +124,17 @@ angular.module('post.controllers' , [])
 
         $scope.delete = function(id , k)
         {
-            Post.delete({id : id})
+            Category.delete({id : id})
                 .$promise.then(
-                function(post){
+                function(category){
 
                     Materialize.toast(
-                        $('<span>' + $filter('language')('post_deleted' , true) + '</span>'),
+                        $('<span>' + $filter('language')('category_deleted' , true) + '</span>'),
                         1000,
                         '',
                         function()
                         {
-                            $scope.$apply(function() {  $location.path('/posts'); })
+                            $scope.$apply(function() {  $location.path('/categories'); })
                         }
                     );
                 },
@@ -151,24 +151,22 @@ angular.module('post.controllers' , [])
 
 
     }])
-    .controller('PostEditController' , ['$scope' , '$http' , 'Post' , '$routeParams' , '$filter' , '$location', function($scope , $http , Post , $routeParams, $filter , $location){
+    .controller('CategoryEditController' , ['$scope' , '$http' , 'Category' , '$routeParams' , '$filter' , '$location', function($scope , $http , Category , $routeParams, $filter , $location){
 
-        $scope.post = {};
+        $scope.category = {};
 
-        Post.get({id : $routeParams.id})
-            .$promise.then(function(post) {
+        Category.get({id : $routeParams.id})
+            .$promise.then(function(category) {
 
-                post.custom_fields = [];
+                category.custom_fields = [];
 
-                //post.available = (post.available) ? 'true' : false;
-
-                angular.forEach(post.custom_data , function(field , f){
+                angular.forEach(category.custom_data , function(field , f){
 
                     if(angular.isArray(field.value))
                     {
                         angular.forEach(field.value , function(value){
 
-                            post.custom_fields.push({
+                            category.custom_fields.push({
                                 name : field.name,
                                 value : value
                             })
@@ -176,7 +174,7 @@ angular.module('post.controllers' , [])
                     }
                     else
                     {
-                        post.custom_fields.push({
+                        category.custom_fields.push({
                             name : field.name,
                             value : field.value
                         })
@@ -184,26 +182,26 @@ angular.module('post.controllers' , [])
 
                 });
 
-                $scope.post = post;
+                $scope.category = category;
 
-                console.log($scope.post);
+                console.log($scope.category);
 
             });
 
         $scope.sendForm = function() {
 
-            Post.update({ id : $routeParams.id } , $scope.post)
+            Category.update({ id : $routeParams.id } , $scope.category)
                 .$promise.then(
-                function(post) {
-                    if(angular.isDefined(post.id))
+                function(category) {
+                    if(angular.isDefined(category.id))
                     {
                         Materialize.toast(
-                            $('<span>' + $filter('language')('post_updated' , true) + '</span>'),
+                            $('<span>' + $filter('language')('category_updated' , true) + '</span>'),
                             1000,
                             '',
                             function()
                             {
-                                $scope.$apply(function() {  $location.path('/posts/'+post.id); })
+                                $scope.$apply(function() {  $location.path('/categories'); })
                             }
 
                         );
@@ -242,51 +240,10 @@ angular.module('post.controllers' , [])
 
         $scope.deleteCustomField = function(k)
         {
-            $scope.post.custom_fields.splice(k , 1);
+            $scope.category.custom_fields.splice(k , 1);
         }
 
     }])
-    .controller('PostFormController' , ['$scope' , 'Category' , function($scope , Category){
-
-        $scope.categories = [];
-
-        $scope.post = {
-            available : true
-        };
-
-        Category.all()
-            .$promise.then(
-                function(categories)
-                {
-                    $scope.categories = categories;
-                }
-            );
-
-        $scope.isArray = function(value)
-        {
-            return angular.isArray(value);
-        }
-
-        $scope.initSelect = function()
-        {
-            setTimeout(function(){
-                $('select').material_select();
-            },1000);
-
-        }
-
-        $scope.initTextarea = function(el)
-        {
-            $(el).characterCounter();
-        }
-
-        $scope.addCustomField = function()
-        {
-            $scope.post.custom_fields.push({
-                name : '',
-                value : ''
-            });
-
-        }
+    .controller('CategoryFormController' , ['$scope' , function($scope){
 
     }])

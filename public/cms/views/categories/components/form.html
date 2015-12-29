@@ -1,0 +1,13 @@
+<form name="CategoryForm" action="" >
+    <div class="col s9">
+        <div class="input-field col s12">
+            <h6  class="active" for="name">{{ 'name' | language:true }}</h6>
+            <input ng-model="category.name" id="name" type="text" validator="required">
+        </div>
+    </div>
+    <div class="col s3 right-align padding-right-20">
+        <button class="btn-floating waves-effect waves-light btn-small green" validation-submit="CategoryForm" ng-click="sendForm()" >
+            <i class="fa fa-check"></i>
+        </button>
+    </div>
+</form>

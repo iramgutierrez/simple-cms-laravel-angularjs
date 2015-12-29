@@ -5,7 +5,7 @@ angular.module('cms.language' , [])
         es : {
             company : 'CMS',
             posts : 'entradas',
-            categories : 'categorias',
+            categories : 'categorías',
             logout : 'salir',
             name : 'nombre',
             slug : 'slug',
@@ -19,7 +19,11 @@ angular.module('cms.language' , [])
             field : 'campo',
             value : 'valor',
             post_saved : 'entrada guardada',
-            post_updated : 'entrada actualizada'
+            post_updated : 'entrada actualizada',
+            post_deleted : 'entrada eliminada',
+            category_saved : 'categoría guardada',
+            category_updated : 'categoría actualizada',
+            category_deleted : 'categoría eliminada'
         },
         en : {
 

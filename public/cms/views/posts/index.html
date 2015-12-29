@@ -22,11 +22,11 @@
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="post in posts">
+    <tr ng-repeat="(p ,post) in posts">
         <td>{{ post.id }}</td>
         <td>{{ post.name }}</td>
         <td>{{ post.available }}</td>
-        <td><a href="#/categories/{{ post.category_id }}">{{ post.category.name }}</a></td>
+        <td>{{ post.category.name }}</td>
         <td>{{ post.excerpt }}</td>
         <td>{{ post.created_at | date }}</td>
         <td>{{ post.created_at | date }}</td>
@@ -41,7 +41,7 @@
             </a>
         </td>
         <td class="right-align padding-right-20">
-            <a href="#/posts/{{ post.id }}"class="btn-floating waves-effect waves-light btn-small red">
+            <a ng-click="delete(post.id , p)" class="btn-floating waves-effect waves-light btn-small red">
                 <i class="fa fa-trash"></i>
             </a>
         </td>

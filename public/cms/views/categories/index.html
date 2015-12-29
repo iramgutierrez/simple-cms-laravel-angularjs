@@ -1,0 +1,38 @@
+
+<h3 class="col s9"> {{ 'categories' | language:true }}</h3>
+<div class="col s3 right-align padding-right-20">
+    <a href="#/categories/create" class="btn-floating waves-effect waves-light btn-small green">
+        <i class="fa fa-plus"></i>
+    </a>
+</div>
+
+<table class="responsive-table striped">
+    <thead>
+    <tr class="row">
+        <th data-field="id">{{ 'id' | language:true }}</th>
+        <th data-field="name">{{ 'name' | language:true }}</th>
+        <th data-field="created_date">{{ 'created_date' | language:true }}</th>
+        <th data-field="created_date">{{ 'created_date' | language:true }}</th>
+        <th data-field="actions"></th>
+        <th data-field="actions"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="(c ,category) in categories">
+        <td>{{ category.id }}</td>
+        <td>{{ category.name }}</td>
+        <td>{{ category.created_at | date }}</td>
+        <td>{{ category.created_at | date }}</td>
+        <td class="right-align padding-right-20">
+            <a href="#/categories/{{ category.id }}/edit"class="btn-floating waves-effect waves-light btn-small blue">
+                <i class="fa fa-pencil-square-o"></i>
+            </a>
+        </td>
+        <td class="right-align padding-right-20">
+            <a ng-click="delete(category.id , c)" class="btn-floating waves-effect waves-light btn-small red">
+                <i class="fa fa-trash"></i>
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>

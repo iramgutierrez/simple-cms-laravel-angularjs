@@ -106,6 +106,8 @@ class PostManager extends BaseManager{
             $data['slug'] = str_slug($data['name']);
         }
 
+        $data['available'] = true;
+
         $this->data = $data;
 
     }

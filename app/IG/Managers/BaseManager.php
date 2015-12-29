@@ -107,6 +107,19 @@ class BaseManager
         }
     }
 
+    public function delete()
+    {
+        if($this->entity->exists)
+        {
+
+            return $this->entity->delete();
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     /**
      *
      */

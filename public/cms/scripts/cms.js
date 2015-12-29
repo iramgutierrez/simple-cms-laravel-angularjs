@@ -12,6 +12,8 @@ angular.module(
         'cms.routes',
         'post.controllers',
         'post.services',
+        'category.controllers',
+        'category.services',
         'cms.components',
     ]
 )

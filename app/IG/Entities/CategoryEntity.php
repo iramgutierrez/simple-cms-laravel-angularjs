@@ -27,5 +27,10 @@ class CategoryEntity extends BaseEntity
 
     protected $appends = [];
 
+    public function posts()
+    {
+        return $this->hasMany(PostEntity::class , 'category_id');
+    }
+
 
 }
