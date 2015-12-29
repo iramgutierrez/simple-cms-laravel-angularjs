@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use IG\Repositories\BaseRepository as Repository;
-use IG\Managers\BaseManager as Manager;
+use CMS\Repositories\BaseRepository as Repository;
+use CMS\Managers\BaseManager as Manager;
+use CMS\Entities\BaseEntity as Entity;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\MessageBag;
-use IG\Entities\BaseEntity as Entity;
 
 /**
  * Class BaseController

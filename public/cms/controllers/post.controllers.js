@@ -167,7 +167,7 @@ angular.module('post.controllers' , [])
             return angular.isArray(value);
         }
 
-        $scope.delete = function(id , k)
+        $scope.delete = function(id)
         {
             Post.delete({id : id})
                 .$promise.then(

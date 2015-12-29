@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use IG\Repositories\PostRepository as Repository;
-use IG\Managers\PostManager as Manager;
+use CMS\Repositories\PostRepository as Repository;
+use CMS\Managers\PostManager as Manager;
 use Illuminate\Http\Request;
 
 class PostController extends BaseController

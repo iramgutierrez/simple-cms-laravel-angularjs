@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use IG\Repositories\CategoryRepository as Repository;
-use IG\Managers\CategoryManager as Manager;
+use CMS\Repositories\CategoryRepository as Repository;
+use CMS\Managers\CategoryManager as Manager;
 
 class CategoryController extends BaseController
 {
