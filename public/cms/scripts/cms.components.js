@@ -1,7 +1,7 @@
 'use strict'
 
-angular.module('cms.components' , [])
-    .directive('postForm', function() {
+angular.module('cms.components', [])
+    .directive('postForm', function () {
         return {
             restrict: 'E',
             scope: '&',

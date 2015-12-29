@@ -29,7 +29,7 @@ class BaseController extends Controller
      * @param Repository $Repository
      * @param Manager $Manager
      */
-    public function __construct(Repository $Repository , Manager $Manager)
+    public function __construct(Repository $Repository, Manager $Manager)
     {
         $this->repository = $Repository;
 
@@ -50,13 +50,12 @@ class BaseController extends Controller
      * @param $id
      * @return \Illuminate\Http\JsonResponse
      */
-    public function show(Request $request , $id)
+    public function show(Request $request, $id)
     {
         $resource = $this->repository->findById($id);
 
-        if(!$resource)
-        {
-            return response()->json(['error' => 'Entity not found'] , 404);
+        if (!$resource) {
+            return response()->json(['error' => 'Entity not found'], 404);
         }
         return response()->json($resource);
     }
@@ -71,25 +70,22 @@ class BaseController extends Controller
 
         $response = $this->manager->save($data);
 
-        if($response instanceof Entity){
+        if ($response instanceof Entity) {
 
-            return response()->json($response , 200);
-        }
-        else if($response instanceof MessageBag)
-        {
-            return response()->json($response ,400);
+            return response()->json($response, 200);
+        } else if ($response instanceof MessageBag) {
+            return response()->json($response, 400);
         }
 
-        return response()->json(['error' => 'Server error. Try Again' ],500);
+        return response()->json(['error' => 'Server error. Try Again'], 500);
     }
 
-    public function update(Request $request , $id)
+    public function update(Request $request, $id)
     {
         $resource = $this->repository->findById($id);
 
-        if(!$resource)
-        {
-            return response()->json(['error' => 'Entity not found'] , 404);
+        if (!$resource) {
+            return response()->json(['error' => 'Entity not found'], 404);
         }
 
         $data = Input::all();
@@ -98,16 +94,14 @@ class BaseController extends Controller
 
         $response = $this->manager->update($data);
 
-        if($response instanceof Entity){
+        if ($response instanceof Entity) {
 
-            return response()->json($response , 200);
-        }
-        else if($response instanceof MessageBag)
-        {
-            return response()->json($response ,400);
+            return response()->json($response, 200);
+        } else if ($response instanceof MessageBag) {
+            return response()->json($response, 400);
         }
 
-        return response()->json(['error' => 'Server error. Try Again' ],500);
+        return response()->json(['error' => 'Server error. Try Again'], 500);
     }
 
     public function destroy(Request $request , $id)

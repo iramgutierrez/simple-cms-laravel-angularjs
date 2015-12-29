@@ -23,38 +23,35 @@ angular.module('cms.language' , [])
             post_deleted : 'entrada eliminada',
             category_saved : 'categoría guardada',
             category_updated : 'categoría actualizada',
-            category_deleted : 'categoría eliminada'
+            category_deleted : 'categoría eliminada',
+            invalid_format_image : 'formato de imagen invalido',
+            image : 'imagen'
         },
-        en : {
-
-        }
+        en: {}
     })
-    .filter('language' , ['config' , 'language' , function(config , language){
+    .filter('language', ['config', 'language', function (config, language) {
 
-        return function(input , capitalize) {
+        return function (input, capitalize) {
 
             var input = input || '';
 
             var capitalize = capitalize || false;
 
-            if(config.hasOwnProperty('locale'))
-            {
+            if (config.hasOwnProperty('locale')) {
                 var locale = config.locale;
 
-                if(language.hasOwnProperty(locale))
-                {
+                if (language.hasOwnProperty(locale)) {
                     var lang = language[locale]
 
-                    if(lang.hasOwnProperty(input)){
+                    if (lang.hasOwnProperty(input)) {
 
                         input = lang[input]
                     }
                 }
             }
 
-            if(capitalize)
-            {
-                return input.toLowerCase().substring(0,1).toUpperCase()+input.substring(1);
+            if (capitalize) {
+                return input.toLowerCase().substring(0, 1).toUpperCase() + input.substring(1);
             }
 
             return input;

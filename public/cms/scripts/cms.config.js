@@ -1,18 +1,18 @@
 'use strict'
 
-angular.module('cms.config' , [
+angular.module('cms.config', [
     'validation',
     'validation.rule'
-    ])
-    .value('config' , {
-        locale : 'es'
+])
+    .value('config', {
+        locale: 'es'
     })
-    .config(['$validationProvider' ,function($validationProvider) {
+    .config(['$validationProvider', function ($validationProvider) {
 
         $validationProvider
             .setErrorHTML(function (msg) {
 
-                return  "<label class=\"control-label has-error error\">" + msg + "</label>";
+                return "<label class=\"control-label has-error error\">" + msg + "</label>";
 
             })
             .setDefaultMsg({

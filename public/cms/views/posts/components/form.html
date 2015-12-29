@@ -1,43 +1,62 @@
-<form name="PostForm" action="" >
+<form name="PostForm" action="">
     <div class="col s9">
         <div class="input-field col s12">
-            <h6  class="active" for="name">{{ 'name' | language:true }}</h6>
+            <h6 class="active" for="name">{{ 'name' | language:true }}</h6>
             <input ng-model="post.name" id="name" type="text" validator="required">
         </div>
     </div>
     <div class="col s3 right-align padding-right-20">
-        <button class="btn-floating waves-effect waves-light btn-small green" validation-submit="PostForm" ng-click="sendForm()" >
+        <button class="btn-floating waves-effect waves-light btn-small green" validation-submit="PostForm"
+                ng-click="sendForm()">
             <i class="fa fa-check"></i>
         </button>
     </div>
-    <div class="col s12">
-        <div class="input-field col s12">
-            <h6>{{ 'category' | language:true }}</h6>
-            <select  ng-model="post.category_id" id="category_id" class="validate browser-default" validator="required">
-                <option value="{{ category.id }}" ng-repeat="category in categories">{{ category.name }}</option>
-            </select>
+    <div class="col s6">
+        <div class="col s12">
+            <p class="padding-left-10">
+                <input type="checkbox" id="available" ng-model="post.available" />
+                <label for="available">{{ 'available' | language:true }}</label>
+            </p>
+        </div>
+        <div class="col s12">
+            <div class="input-field col s12">
+                <h6>{{ 'category' | language:true }}</h6>
+                <select ng-model="post.category_id" id="category_id" class="validate browser-default" validator="required">
+                    <option value="{{ category.id }}" ng-repeat="category in categories">{{ category.name }}</option>
+                </select>
+            </div>
         </div>
     </div>
-    <div class="col s12 margin-top-30 margin-bottom-30 padding-left-20">
-        <p>
-            <input type="checkbox" id="available" checked="checked" ng-model="post.available"  name="available" />
-            <label for="available">{{ 'available' | language:true }}</label>
-        </p>
+    <div class="col s6">
+        <div class="file-field input-field">
+            <div class="btn">
+                <span>{{ 'image' | language:true}}</span>
+                <input type="file" name="image" file-model="image">
+            </div>
+            <div class="file-path-wrapper">
+                <input class="file-path" type="text">
+            </div>
+        </div>
+        <figure class="col s12" ng-if="post.full_image">
+            <img src="{{ post.full_image }}" alt="" class="col s12" />
+        </figure>
     </div>
     <div class="col s12">
         <div class="input-field col s12">
             <h6>{{ 'excerpt' | language:true }}</h6>
-            <textarea id="excerpt"  validator="required" class="materialize-textarea" length="140"  maxlength="140" ng-model="post.excerpt" ng-init="initTextarea('#excerpt')"></textarea>
+            <textarea id="excerpt" validator="required" class="materialize-textarea" length="140" maxlength="140"
+                      ng-model="post.excerpt" ng-init="initTextarea('#excerpt')"></textarea>
         </div>
     </div>
-    <div  class="col s12">
+    <div class="col s12">
         <div class="input-field col s12">
             <h6>{{ 'content' | language:true }}</h6>
-            <textarea  validator="required" id="content" class="materialize-textarea" ng-model="post.content"></textarea>
+            <textarea validator="required" id="content" class="materialize-textarea" ng-model="post.content"></textarea>
         </div>
     </div>
-    <div  class="col s12">
+    <div class="col s12">
         <h5 class="col s9">{{ 'custom_fields' | language:true }}</h5>
+
         <div class="col s3 right-align padding-right-20">
             <a href="" class="btn-floating waves-effect waves-light btn-small green" ng-click="addCustomField()">
                 <i class="fa fa-plus"></i>

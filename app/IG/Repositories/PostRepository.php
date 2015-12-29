@@ -9,7 +9,8 @@ use IG\Entities\CategoryEntity as Category;
  * Class PostRepository
  * @package IG\Repositories
  */
-class PostRepository extends BaseRepository{
+class PostRepository extends BaseRepository
+{
 
     /**
      * @var Category
@@ -20,7 +21,7 @@ class PostRepository extends BaseRepository{
      * @param Entity $Entity
      * @param Category $Category
      */
-    public function __construct(Entity $Entity , Category $Category)
+    public function __construct(Entity $Entity, Category $Category)
     {
         parent::__construct($Entity);
 
@@ -41,7 +42,7 @@ class PostRepository extends BaseRepository{
      */
     public function findById($id)
     {
-        return $this->entity->with('category' , 'custom_fields')->find($id);
+        return $this->entity->with('category', 'custom_fields')->find($id);
     }
 
 
@@ -51,13 +52,12 @@ class PostRepository extends BaseRepository{
      */
     public function getByCategory($category_name)
     {
-        $category = $this->category->where('slug' , $category_name)->first();
+        $category = $this->category->where('slug', $category_name)->first();
 
-        if(!$category)
-        {
+        if (!$category) {
             return [];
         }
 
-        return $this->entity->where('category_id' , $category->id)->get();
+        return $this->entity->where('category_id', $category->id)->get();
     }
 }

@@ -28,66 +28,113 @@
       <file leaf-file-name="post.controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/cms/controllers/post.controllers.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.6574344" vertical-offset="1313" max-vertical-offset="3798">
               <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
               <folding>
                 <element signature="e#177#1048#0" expanded="false" />
                 <element signature="e#3391#4628#0" expanded="false" />
               </folding>
+=======
+            <state vertical-scroll-proportion="-6.645161" vertical-offset="2296" max-vertical-offset="5706">
+              <caret line="139" column="197" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="197" />
+              <folding />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/cms/views/posts/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="990">
               <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+=======
+            <state vertical-scroll-proportion="0.1403118" vertical-offset="0" max-vertical-offset="898">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/views/posts/create.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
               <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+=======
+      <file leaf-file-name="PostEntity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/IG/Entities/PostEntity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3333335" vertical-offset="622" max-vertical-offset="1494">
+              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/views/posts/components/form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1296">
               <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+=======
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="576">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1422">
               <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding />
+=======
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1062">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="e#40#89#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/views/categories/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="774">
               <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+=======
+      <file leaf-file-name="post.services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cms/services/post.services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1206">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="category.controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/controllers/category.controllers.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,35 +143,67 @@
               <folding>
                 <element signature="e#3496#4775#0" expanded="false" />
               </folding>
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cms/views/posts/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.538462" vertical-offset="100" max-vertical-offset="972">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="cms.language.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.language.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1242">
               <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+=======
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cms/views/posts/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1026">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="39" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="PostManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/IG/Managers/PostManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1398" max-vertical-offset="2106">
               <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cms/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="1404">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="PostEntity.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/IG/Entities/PostEntity.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1422">
               <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+=======
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cms/views/posts/components/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231" vertical-offset="378" max-vertical-offset="1656">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="41" selection-end-column="17" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <folding />
             </state>
           </provider>
@@ -141,27 +220,39 @@
         <option value="$PROJECT_DIR$/public/cms/controllers/posts.controllers.js" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_22_193105_create_posts_status_field.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_22_215532_create_custom_fields_slug_field.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/IG/Entities/PostEntity.php" />
         <option value="$PROJECT_DIR$/public/cms/css/cms.css" />
+=======
+        <option value="$PROJECT_DIR$/public/cms/scripts/cms.routes.js" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         <option value="$PROJECT_DIR$/public/cms/components/form-post/template.html" />
         <option value="$PROJECT_DIR$/public/cms/components/form-post/script.js" />
         <option value="$PROJECT_DIR$/public/cms/views/components/form/script.js" />
         <option value="$PROJECT_DIR$/public/cms/views/posts/create.html" />
         <option value="$PROJECT_DIR$/public/cms/views/posts/edit.html" />
         <option value="$PROJECT_DIR$/public/cms/scripts/cms.config.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+=======
+        <option value="$PROJECT_DIR$/public/cms/scripts/cms.js" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         <option value="$PROJECT_DIR$/app/IG/Repositories/BaseRepository.php" />
         <option value="$PROJECT_DIR$/app/IG/Repositories/PostRepository.php" />
         <option value="$PROJECT_DIR$/app/IG/Validators/BaseValidator.php" />
-        <option value="$PROJECT_DIR$/public/cms/stylus/utils.styl" />
         <option value="$PROJECT_DIR$/app/IG/Entities/CustomFieldEntity.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/public/cms/services/post.services.js" />
+=======
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         <option value="$PROJECT_DIR$/app/IG/Validators/PostValidator.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/cms/bower.json" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/IG/Managers/BaseManager.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/public/cms/views/posts/show.html" />
         <option value="$PROJECT_DIR$/public/cms/scripts/cms.routes.js" />
         <option value="$PROJECT_DIR$/public/cms/scripts/cms.js" />
@@ -186,6 +277,25 @@
         <option value="$PROJECT_DIR$/public/cms/stylus/style.styl" />
         <option value="$PROJECT_DIR$/public/cms/views/posts/components/form.html" />
         <option value="$PROJECT_DIR$/public/cms/controllers/post.controllers.js" />
+=======
+        <option value="$PROJECT_DIR$/app/IG/Managers/PostManager.php" />
+        <option value="$PROJECT_DIR$/public/cms/views/posts/index.html" />
+        <option value="$USER_HOME$/Downloads/css_nodes_style.css" />
+        <option value="$PROJECT_DIR$/public/cms/stylus/style.styl" />
+        <option value="$PROJECT_DIR$/public/cms/stylus/utils.styl" />
+        <option value="$PROJECT_DIR$/public/cms/css/cms.css" />
+        <option value="$PROJECT_DIR$/public/cms/index.html" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/public/cms/services/post.services.js" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_12_28_215947_create_posts_image_field.php" />
+        <option value="$PROJECT_DIR$/app/IG/Entities/PostEntity.php" />
+        <option value="$PROJECT_DIR$/public/cms/views/posts/components/form.html" />
+        <option value="$PROJECT_DIR$/public/cms/scripts/cms.language.js" />
+        <option value="$PROJECT_DIR$/public/cms/views/posts/show.html" />
+        <option value="$PROJECT_DIR$/public/cms/controllers/post.controllers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       </list>
     </option>
   </component>
@@ -346,6 +456,7 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="cms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -356,6 +467,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="categories" />
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +494,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="simple-cms" />
+=======
+              <option name="myItemId" value="ig" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,11 +514,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+=======
+              <option name="myItemId" value="posts" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,7 +532,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="simple-cms" />
+=======
+              <option name="myItemId" value="ig" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -407,7 +548,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="stylus" />
+=======
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,7 +570,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="simple-cms" />
+=======
+              <option name="myItemId" value="ig" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,7 +586,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="services" />
+=======
+              <option name="myItemId" value="scripts" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,6 +600,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="simple-cms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -452,6 +614,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
+=======
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,6 +630,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="simple-cms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -474,6 +644,31 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+=======
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -627,6 +822,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pos-server" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="options.lastSelected" value="watcher.settings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -685,23 +884,44 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <editor active="false" />
+=======
+    <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28875968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2820513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -753,7 +973,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/cms/controllers/post.controllers.js</url>
+<<<<<<< HEAD
           <line>102</line>
+=======
+          <line>120</line>
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/IG/Managers/PostManager.php</url>
@@ -766,6 +990,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="72" max-vertical-offset="558">
@@ -795,6 +1020,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_215532_create_custom_fields_slug_field.php">
+=======
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_21_225422_create_categories_table.php">
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="648">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
@@ -850,6 +1078,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/services/post.services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
@@ -858,6 +1087,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Validators/BaseValidator.php">
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1108" max-vertical-offset="1980">
           <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
@@ -892,6 +1124,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="558">
@@ -914,6 +1147,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cms/views/posts/edit.html">
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.routes.js">
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -929,34 +1165,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cms/services/category.services.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+=======
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="558">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="7745" max-vertical-offset="8604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Repositories/PostRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-15.259259" vertical-offset="308" max-vertical-offset="1206">
           <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
         </state>
@@ -966,25 +1223,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.56383" vertical-offset="61" max-vertical-offset="828">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Validators/PostValidator.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-25.25926" vertical-offset="74" max-vertical-offset="972">
           <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Validators/CategoryValidator.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-3.255319" vertical-offset="0" max-vertical-offset="900">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+=======
+        <state vertical-scroll-proportion="-15.846154" vertical-offset="308" max-vertical-offset="1206">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
@@ -1005,12 +1277,80 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Entities/CategoryEntity.php">
+=======
+        <state vertical-scroll-proportion="-13.153846" vertical-offset="0" max-vertical-offset="486">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IG/Entities/CustomFieldEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.461538" vertical-offset="0" max-vertical-offset="648">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IG/Validators/BaseValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1108" max-vertical-offset="1980">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IG/Validators/PostValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="972">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IG/Managers/BaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="2268">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/IG/Managers/PostManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="1998">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#65#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1144" max-vertical-offset="2016">
+          <caret line="103" column="77" selection-start-line="103" selection-start-column="77" selection-end-line="103" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/css_nodes_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020761246" vertical-offset="0" max-vertical-offset="2610">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/stylus/style.css">
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="738">
           <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/views/categories/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.38297874" vertical-offset="0" max-vertical-offset="324">
@@ -1036,11 +1376,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
           <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/stylus/utils.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/stylus/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/css/cms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="64" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="1404">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/css/utils.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="576">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.components.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
@@ -1050,18 +1445,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="774">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1062">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#40#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/services/post.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.language.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_28_215947_create_posts_image_field.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28899083" vertical-offset="0" max-vertical-offset="872">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/controllers/category.controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="3672">
@@ -1069,41 +1486,75 @@
           <folding>
             <element signature="e#3496#4775#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/IG/Managers/PostManager.php">
+=======
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_215532_create_custom_fields_slug_field.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1398" max-vertical-offset="2106">
-          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.53669727" vertical-offset="0" max-vertical-offset="872">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="39" />
           <folding />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/IG/Entities/PostEntity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1422">
-          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="1398" max-vertical-offset="2106">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+=======
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="622" max-vertical-offset="1494">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/IG/Entities/PostEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1422">
+          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/views/posts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.538462" vertical-offset="100" max-vertical-offset="972">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/views/posts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="990">
           <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/views/posts/components/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="378" max-vertical-offset="1656">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="41" selection-end-column="17" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/views/posts/create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/views/posts/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="39" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/cms/stylus/style.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026706232" vertical-offset="0" max-vertical-offset="674">
@@ -1115,14 +1566,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1422">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+=======
+    <entry file="file://$PROJECT_DIR$/public/cms/scripts/cms.language.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21107267" vertical-offset="231" max-vertical-offset="1116">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cms/controllers/post.controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.645161" vertical-offset="2296" max-vertical-offset="5706">
+          <caret line="139" column="197" selection-start-line="139" selection-start-column="197" selection-end-line="139" selection-end-column="197" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cms/views/posts/components/form.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1296">
           <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+=======
+        <state vertical-scroll-proportion="0.1403118" vertical-offset="0" max-vertical-offset="898">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa
           <folding />
         </state>
       </provider>

@@ -8,7 +8,8 @@ use IG\Entities\PostEntity as Entity;
  * Class PostValidator
  * @package IG\Validators
  */
-class PostValidator extends BaseValidator {
+class PostValidator extends BaseValidator
+{
 
     /**
      * @var array
@@ -38,9 +39,8 @@ class PostValidator extends BaseValidator {
     {
         $rules = $this->getRules();
 
-        if(!empty($this->data['name']) && !empty($rules['name']) )
-        {
-            $rules['name'] .= ','.$this->entity->id;
+        if (!empty($this->data['name']) && !empty($rules['name'])) {
+            $rules['name'] .= ',' . $this->entity->id;
         }
 
         return $rules;

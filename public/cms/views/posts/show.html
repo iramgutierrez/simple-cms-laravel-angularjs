@@ -1,43 +1,52 @@
+<div class="col s9">
+    <h6>{{ 'name' | language:true }}</h6>
+    <p class="padding-left-30"> {{ post.name }}</p>
+</div>
+<div class="col s3 right-align">
+    <a href="#/posts/{{ post.id }}/edit" class="btn-floating waves-effect waves-light btn-small blue">
+        <i class="fa fa-pencil-square-o"></i>
+    </a>
+    <a href="#/posts/{{ post.id }}" class="btn-floating waves-effect waves-light btn-small red">
+        <i class="fa fa-trash"></i>
+    </a>
+</div>
+<div class="col s12">
+    <h6>{{ 'category' | language:true }}</h6>
 
-    <div class="col s9">
-        <h6>{{ 'name' | language:true }}</h6>
-        <p class="padding-left-30"> {{ post.name }}</p>
-    </div>
-    <div class="col s3 right-align">
-        <a href="#/posts/{{ post.id }}/edit"class="btn-floating waves-effect waves-light btn-small blue">
-            <i class="fa fa-pencil-square-o"></i>
-        </a>
-        <a ng-click="delete(post.id)" class="btn-floating waves-effect waves-light btn-small red">
-            <i class="fa fa-trash"></i>
-        </a>
-    </div>
-    <div class="col s12">
-        <h6>{{ 'category' | language:true }}</h6>
-        <p class="padding-left-30"> {{ post.category.name }}</p>
-    </div>
-    <div class="col s12">
-        <h6>{{ 'excerpt' | language:true }}</h6>
-        <p class="padding-left-30"> {{ post.excerpt }}</p>
-    </div>
-    <div  class="col s12">
-        <h6>{{ 'content' | language:true }}</h6>
-        <p class="padding-left-30"> {{ post.content }}</p>
-    </div>
-    <div  class="col s12">
-        <h6>{{ 'custom_fields' | language:true }}</h6>
-        <table class="responsive-table striped">
-            <tr>
-                <th data-field="field">{{ 'field' | language:true }}</th>
-                <th data-field="value">{{ 'value' | language:true }}</th>
-            </tr>
-            <tr ng-repeat="data in post.custom_data">
-                <td>{{ data.name }}</td>
-                <td>
-                    <span ng-if="!isArray(data.value)">{{ data.value }}</span>
-                    <ul ng-if="isArray(data.value)">
-                        <li ng-repeat="value in data.value">{{ value }}</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
+    <p class="padding-left-30"> {{ post.category.name }}</p>
+</div>
+<div class="col s12">
+    <h6>{{ 'excerpt' | language:true }}</h6>
+
+    <p class="padding-left-30"> {{ post.excerpt }}</p>
+</div>
+<div class="col s12">
+    <h6>{{ 'content' | language:true }}</h6>
+
+    <p class="padding-left-30"> {{ post.content }}</p>
+</div>
+<div class="col s12">
+    <h6>{{ 'image' | language:true }}</h6>
+    <figure class="col s12" ng-if="post.full_image">
+        <img src="{{ post.full_image }}" alt="" class="col s12" />
+    </figure>
+</div>
+<div class="col s12">
+    <h6>{{ 'custom_fields' | language:true }}</h6>
+    <table class="responsive-table striped">
+        <tr>
+            <th data-field="field">{{ 'field' | language:true }}</th>
+            <th data-field="value">{{ 'value' | language:true }}</th>
+        </tr>
+        <tr ng-repeat="data in post.custom_data">
+            <td>{{ data.name }}</td>
+            <td>
+                <span ng-if="!isArray(data.value)">{{ data.value }}</span>
+                <ul ng-if="isArray(data.value)">
+                    <li ng-repeat="value in data.value">{{ value }}</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+>>>>>>> 58ac233bde588290fbd2244dcda0e2b485def5aa

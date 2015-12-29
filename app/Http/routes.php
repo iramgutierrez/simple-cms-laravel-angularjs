@@ -32,3 +32,6 @@ Route::resource('posts' , 'PostController');
 
 Route::resource('categories' , 'CategoryController');
 
+Route::post('posts/upload-image' , [
+    'uses' => 'PostController@uploadImage'
+]);
