@@ -45,6 +45,11 @@ class PostRepository extends BaseRepository
         return $this->entity->with('category', 'custom_fields')->find($id);
     }
 
+    public function findBySlug($slug)
+    {
+        return $this->entity->with('category', 'custom_fields')->where('slug',$slug)->first();
+    }
+
 
     /**
      * @param $category_name

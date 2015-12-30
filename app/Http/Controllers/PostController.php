@@ -12,6 +12,8 @@ class PostController extends BaseController
     public function __construct(Repository $Repository, Manager $Manager)
     {
         parent::__construct($Repository, $Manager);
+
+        $this->middleware('auth');
     }
 
     public function uploadImage(Request $request)

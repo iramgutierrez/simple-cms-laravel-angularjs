@@ -45,4 +45,14 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::post('posts/upload-image' , 'PostController@uploadImage');
 
+    Route::group(['prefix' => 'api'], function () {
+
+        Route::resource('posts', 'Api\PostController',
+            ['only' => ['index', 'show']]);
+
+        Route::resource('categories', 'Api\CategoryController',
+            ['only' => ['index', 'show']]);
+
+    });
+
 });
