@@ -53,6 +53,8 @@ Route::group(['middleware' => 'web'], function () {
         Route::resource('categories', 'Api\CategoryController',
             ['only' => ['index', 'show']]);
 
+        Route::get('categories/{id}/posts' , 'Api\CategoryController@getPosts');
+
     });
 
 });

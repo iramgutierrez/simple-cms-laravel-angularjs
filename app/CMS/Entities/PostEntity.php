@@ -71,7 +71,7 @@ class PostEntity extends BaseEntity
             return false;
         }
 
-        return url('/').'/posts_images/'.$this->image;
+        return url('/').'/cms/posts_images/'.$this->image;
     }
 
 

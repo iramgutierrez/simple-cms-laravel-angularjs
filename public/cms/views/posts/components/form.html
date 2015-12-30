@@ -43,14 +43,14 @@
     <div class="col s12">
         <div class="input-field col s12">
             <h6>{{ 'excerpt' | language:true }}</h6>
-            <textarea id="excerpt" validator="required" class="materialize-textarea" length="140" maxlength="140"
+            <textarea id="excerpt" class="materialize-textarea" length="140" maxlength="140"
                       ng-model="post.excerpt" ng-init="initTextarea('#excerpt')"></textarea>
         </div>
     </div>
     <div class="col s12">
         <div class="input-field col s12">
             <h6>{{ 'content' | language:true }}</h6>
-            <textarea validator="required" id="content" class="materialize-textarea" ng-model="post.content"></textarea>
+            <textarea validator="required" id="content" class="" ng-model="post.content" redactor></textarea>
         </div>
     </div>
     <div class="col s12">

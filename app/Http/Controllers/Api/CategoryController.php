@@ -62,4 +62,22 @@ class CategoryController extends BaseController
         return response()->json($resource);
     }
 
+    public function getPosts($id)
+    {
+        if(is_numeric($id))
+        {
+            $resource = $this->repository->findByIdWithPosts($id);
+
+        }
+        else
+        {
+            $resource = $this->repository->findBySlugWithPosts($id);
+        }
+
+        if (!$resource) {
+            return response()->json(['error' => 'Entity not found'], 404);
+        }
+        return response()->json($resource->posts);
+    }
+
 }

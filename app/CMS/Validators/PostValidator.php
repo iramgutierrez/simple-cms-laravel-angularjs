@@ -18,7 +18,6 @@ class PostValidator extends BaseValidator
         'name' => 'required|unique:posts,name',
         'slug' => 'required',
         'category_id' => 'required|exists:categories,id',
-        'excerpt' => 'required',
         'content' => 'required',
 
     );
