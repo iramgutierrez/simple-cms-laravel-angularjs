@@ -63,6 +63,7 @@ abstract class BaseValidator
      */
     public function getErrors()
     {
+        
         return $this->errors;
     }
 

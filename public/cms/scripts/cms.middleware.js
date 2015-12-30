@@ -9,7 +9,6 @@ angular.module('cms.middleware' , [])
 
             $http.get(config.backendUrl+'/checkLogin')
                 .success(function(login){
-                    console.log(login);
                     if(login.loggedIn)
                     {
                         deferred.resolve();
@@ -17,7 +16,36 @@ angular.module('cms.middleware' , [])
                     {
                         deferred.reject();
 
-                        window.location = 'login';
+                        $location.path('/login');
+                    }
+                })
+                .error(function(err){
+
+                    console.log(err);
+
+                })
+
+            return deferred.promise;
+
+        }];
+    })
+    .provider('checkGuest', function() {
+
+        this.$get = [ "$q" , "config", "$http" , "$location" ,  function($q , config , $http , $location) {
+
+            var deferred = $q.defer();
+
+            $http.get(config.backendUrl+'/checkLogin')
+                .success(function(login){
+
+                    if(!login.loggedIn)
+                    {
+                        deferred.resolve();
+                    }else
+                    {
+                        deferred.reject();
+
+                        $location.path('/');
                     }
                 })
                 .error(function(err){

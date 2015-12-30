@@ -22,25 +22,27 @@
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
-    
-});
-
-Route::resource('posts' , 'PostController');
-
-Route::resource('categories' , 'CategoryController');
-
-Route::post('posts/upload-image' , [
-    'uses' => 'PostController@uploadImage'
-]);
-
 Route::group(['middleware' => 'web'], function () {
-    Route::auth();
 
-    Route::get('/home', 'HomeController@index');
+    //Route::auth();
+
+    Route::get('/' , function(){
+        return File::get(public_path() . '/cms/index.html');
+    });
+
+    Route::post('/login' , 'Auth\AuthController@login');
+
+    Route::get('/logout' , 'Auth\AuthController@logout');
 
     Route::get('checkLogin' , function(){
 
         return response()->json(["loggedIn" => \Auth::check() ]);
     });
+
+    Route::resource('posts' , 'PostController');
+
+    Route::resource('categories' , 'CategoryController');
+
+    Route::post('posts/upload-image' , 'PostController@uploadImage');
+
 });

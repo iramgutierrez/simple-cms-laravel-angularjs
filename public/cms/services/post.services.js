@@ -1,9 +1,9 @@
 'use strict'
 
 angular.module('post.services', [])
-    .factory('Post', function ($resource) {
+    .factory('Post', function ($resource , config) {
 
-        return $resource('posts/:id',
+        return $resource(config.backendUrl+'/posts/:id',
             {id: '@_id'},
             {
                 all: {

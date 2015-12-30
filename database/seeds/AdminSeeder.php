@@ -14,7 +14,7 @@ class AdminSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'admin',
             'username' => 'admin',
-            'password' => bcrypt('Hpk+RJ_xHG>+/h93'),
+                'password' => bcrypt('Hpk+RJ_xHG>+/h93'),
         ]);
     }
 }

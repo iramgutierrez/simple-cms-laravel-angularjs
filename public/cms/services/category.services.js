@@ -1,9 +1,9 @@
 'use strict'
 
 angular.module('category.services' , [])
-    .factory('Category', function($resource) {
+    .factory('Category', function($resource , config) {
 
-        return $resource('categories/:id',
+        return $resource(config.backendUrl+'/categories/:id',
             {id: '@_id'},
             {
                 all: {

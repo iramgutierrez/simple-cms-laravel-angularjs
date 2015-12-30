@@ -25,7 +25,16 @@ angular.module('cms.language' , [])
             category_updated : 'categoría actualizada',
             category_deleted : 'categoría eliminada',
             invalid_format_image : 'formato de imagen invalido',
-            image : 'imagen'
+            image : 'imagen',
+            username : 'nombre de usuario',
+            password : 'contraseña',
+            unauthorized : 'no autorizado',
+            server_error : 'error de servidor',
+            the_name_field_is_required : 'el campo nombre es requerido',
+            the_category_id_field_is_required : 'el campo categoría es requerido',
+            the_excerpt_field_is_required : 'el campo extracto es requerido',
+            the_content_field_is_required : 'el campo contenido es requerido',
+            the_name_has_already_been_taken : 'el campo nombre tiene que ser único'
         },
         en: {}
     })

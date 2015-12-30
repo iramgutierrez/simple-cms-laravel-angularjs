@@ -30,7 +30,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
 
     /**
      * Create a new authentication controller instance.
@@ -74,9 +74,9 @@ class AuthController extends Controller
 
     public function login(Request $request){
 
-        $data = Input::only('email', 'password');
+        $data = Input::only('username', 'password');
 
-        $credentials = ['email' => $data['email'], 'password' => $data['password']];
+        $credentials = ['username' => $data['username'], 'password' => $data['password']];
 
         if (\Auth::attempt($credentials))
         {   //dd(\Auth::user());
@@ -85,5 +85,18 @@ class AuthController extends Controller
 
         return response()->json(["success" => false],401);
 
+    }
+
+
+    public function logout(Request $request)
+    {
+        \Auth::logout();
+
+        if($request->wantsJson())
+        {
+               return response()->json(['success' => true] , 200);
+        }
+
+        return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/');
     }
 }

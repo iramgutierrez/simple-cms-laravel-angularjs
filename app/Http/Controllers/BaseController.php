@@ -34,6 +34,8 @@ class BaseController extends Controller
         $this->repository = $Repository;
 
         $this->manager = $Manager;
+
+        $this->middleware('auth');
     }
 
     /**

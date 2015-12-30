@@ -17,7 +17,16 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
+
         if (Auth::guard($guard)->check()) {
+            if($request->wantsJson())
+            {
+                return response()->json(['response' => 'Unauthorized'] , 401);
+            }
+            else
+            {
+
+            }
             return redirect('/');
         }
 

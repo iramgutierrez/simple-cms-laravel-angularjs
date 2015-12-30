@@ -69,14 +69,21 @@ angular.module('category.controllers' , [])
 
                         if(err.status == 400)
                         {
-                            angular.forEach(err.data , function(field){
-                                angular.forEach(field , function(error){
-                                    if(message != '')
-                                    {
-                                        message += '<br>';
-                                    }
-                                    message += error;
-                                })
+
+                            angular.forEach(err.data, function (field , f) {
+
+                                if(f != 'slug')
+                                {
+                                    angular.forEach(field, function (error) { console.log(field)
+
+                                        if (message != '') {
+                                            message += '<br>';
+                                        }
+                                        error = $filter('slugify')(error , '_');
+                                        error = error.replace('.' , '');
+                                        message += $filter('language')(error , true);
+                                    })
+                                }
                             })
                         }
                         else if(err.status == 500)
@@ -213,14 +220,20 @@ angular.module('category.controllers' , [])
 
                     if(err.status == 400)
                     {
-                        angular.forEach(err.data , function(field){
-                            angular.forEach(field , function(error){
-                                if(message != '')
-                                {
-                                    message += '<br>';
-                                }
-                                message += error;
-                            })
+                        angular.forEach(err.data, function (field , f) {
+
+                            if(f != 'slug')
+                            {
+                                angular.forEach(field, function (error) { console.log(field)
+
+                                    if (message != '') {
+                                        message += '<br>';
+                                    }
+                                    error = $filter('slugify')(error , '_');
+                                    error = error.replace('.' , '');
+                                    message += $filter('language')(error , true);
+                                })
+                            }
                         })
                     }
                     else if(err.status == 500)
