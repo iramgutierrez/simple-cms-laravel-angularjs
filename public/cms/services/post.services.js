@@ -8,7 +8,7 @@ angular.module('post.services', [])
             {
                 all: {
                     method: 'GET',
-                    url: 'posts',
+                    url: config.backendUrl+'/posts',
                     isArray: true
                 },
                 get: {

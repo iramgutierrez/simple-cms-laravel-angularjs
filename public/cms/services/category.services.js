@@ -8,7 +8,7 @@ angular.module('category.services' , [])
             {
                 all: {
                     method:'GET',
-                    url : 'categories',
+                    url : config.backendUrl+'/categories',
                     isArray: true
                 },
                 get: {
