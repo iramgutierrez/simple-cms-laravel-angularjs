@@ -6,7 +6,7 @@ angular.module('cms.config', [
 ])
     .value('config', {
         locale: 'es',
-        backendUrl : 'http://localhost:8000'
+        backendUrl : ''
     })
     .config(['$validationProvider', function ($validationProvider) {
 
