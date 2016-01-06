@@ -263,7 +263,7 @@ angular.module('post.controllers' , [])
                     if(file)
                     {
 
-                        var uploadUrl = "posts/upload-image/";
+                        var uploadUrl = config.backendUrl+"/posts/upload-image/";
 
                         fileUpload.uploadFileToUrl(file, uploadUrl , 'image')
                             .then(
