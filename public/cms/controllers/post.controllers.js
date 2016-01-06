@@ -202,7 +202,7 @@ angular.module('post.controllers' , [])
 
 
     }])
-    .controller('PostEditController', ['$scope', '$http', 'Post', '$routeParams', '$filter', '$location' , 'fileUpload', function ($scope, $http, Post, $routeParams, $filter, $location , fileUpload) {
+    .controller('PostEditController', ['$scope', '$http', 'Post', '$routeParams', '$filter', '$location' , 'fileUpload' , 'config', function ($scope, $http, Post, $routeParams, $filter, $location , fileUpload , config) {
 
         $scope.post = {};
 
@@ -234,8 +234,6 @@ angular.module('post.controllers' , [])
                 });
 
                 $scope.post = post;
-
-                console.log($scope.post);
 
             });
 
