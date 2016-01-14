@@ -39,11 +39,11 @@ Route::group(['middleware' => 'web'], function () {
         return response()->json(["loggedIn" => \Auth::check() ]);
     });
 
-    Route::resource('posts' , 'PostController');
+    Route::resource('posts' , 'CMS\PostController');
 
-    Route::resource('categories' , 'CategoryController');
+    Route::resource('categories' , 'CMS\CategoryController');
 
-    Route::post('posts/upload-image' , 'PostController@uploadImage');
+    Route::post('posts/upload-image' , 'CMS\PostController@uploadImage');
 
     Route::group(['prefix' => 'api'], function () {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\CMS;
 
 use CMS\Repositories\PostRepository as Repository;
 use CMS\Managers\PostManager as Manager;

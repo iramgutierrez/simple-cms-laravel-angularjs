@@ -1,13 +1,16 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\CMS;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use CMS\Repositories\BaseRepository as Repository;
 use CMS\Managers\BaseManager as Manager;
 use CMS\Entities\BaseEntity as Entity;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\MessageBag;
+
+
 
 /**
  * Class BaseController

@@ -13,7 +13,7 @@ composer dump-autoload
 ```
 
 ```bash
-cp .env.ezample .env
+cp .env.example .env
 ```
 
 ```bash
