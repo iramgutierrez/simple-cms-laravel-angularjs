@@ -42,7 +42,7 @@ class BaseManager
     /**
      * @return \Illuminate\Database\Eloquent\Collection|static[]
      */
-    public function save($data)
+    public function save(array $data)
     {
         $this->data = $data;
 
@@ -65,7 +65,7 @@ class BaseManager
 
     }
 
-    public function update($data)
+    public function update(array $data)
     {
 
         $this->data = $data;
