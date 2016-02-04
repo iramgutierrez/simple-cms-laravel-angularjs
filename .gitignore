@@ -6,3 +6,4 @@ Homestead.json
 /public/cms/bower_components
 /public/cms/node_modules
 /public/cms/posts_images
+.idea
