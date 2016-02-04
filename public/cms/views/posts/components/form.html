@@ -2,7 +2,7 @@
     <div class="col s9">
         <div class="input-field col s12">
             <h6 class="active" for="name">{{ 'name' | language:true }}</h6>
-            <input ng-model="post.name" id="name" type="text" validator="required">
+            <input ng-model="post.name" id="name" type="text" validator="required" name="name">
         </div>
     </div>
     <div class="col s3 right-align padding-right-20">
@@ -20,7 +20,7 @@
         <div class="col s12">
             <div class="input-field col s12">
                 <h6>{{ 'category' | language:true }}</h6>
-                <select ng-model="post.category_id" id="category_id" class="validate browser-default" validator="required">
+                <select ng-model="post.category_id" id="category_id" class="validate browser-default" validator="required" name="category_id">
                     <option value="{{ category.id }}" ng-repeat="category in categories">{{ category.name }}</option>
                 </select>
             </div>
@@ -44,16 +44,17 @@
         <div class="input-field col s12">
             <h6>{{ 'excerpt' | language:true }}</h6>
             <textarea id="excerpt" class="materialize-textarea" length="140" maxlength="140"
-                      ng-model="post.excerpt" ng-init="initTextarea('#excerpt')"></textarea>
+                      ng-model="post.excerpt" ng-init="initTextarea('#excerpt')" name="excerpt"></textarea>
         </div>
     </div>
     <div class="col s12">
-        <div class="input-field col s12">
+        <div class="input-field col s12 text-angular">
             <h6>{{ 'content' | language:true }}</h6>
-            <textarea validator="required" id="content" class="materialize-textarea" ng-model="post.content"></textarea>
+            <div text-angular name="htmlcontent" ng-model="term.content" ></div>
+            <input type="hidden" validator="required" id="content" ng-model="term.content" name="content" />
         </div>
     </div>
-    <div class="col s12">
+    <div class="col s12 margin-top-40">
         <h5 class="col s9">{{ 'custom_fields' | language:true }}</h5>
 
         <div class="col s3 right-align padding-right-20">

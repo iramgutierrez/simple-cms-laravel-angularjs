@@ -8,7 +8,7 @@ angular.module(
         'ngRoute',
         'ngResource',
         'angular.filter',
-        'angular-redactor',
+        'textAngular',
         'cms.config',
         'cms.language',
         'cms.root',
