@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use Illuminate\Http\Request;
 use CMS\Repositories\CategoryRepository as Repository;
 use CMS\Managers\CategoryManager as Manager;
-use App\Http\Controllers\BaseController;
+use App\Http\Controllers\CMS\BaseController;
 use Illuminate\Support\Facades\Input;
 
 class CategoryController extends BaseController
