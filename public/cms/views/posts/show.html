@@ -23,7 +23,7 @@
 <div class="col s12">
     <h6>{{ 'content' | language:true }}</h6>
 
-    <p class="padding-left-30"> {{ post.content }}</p>
+    <p class="padding-left-30" ng-bind-html="post.content"></p>
 </div>
 <div class="col s12">
     <h6>{{ 'image' | language:true }}</h6>
