@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use Illuminate\Http\Request;
 use CMS\Repositories\PostRepository as Repository;
 use CMS\Managers\PostManager as Manager;
-use App\Http\Controllers\BaseController;
+use App\Http\Controllers\CMS\BaseController;
 
 class PostController extends BaseController
 {
