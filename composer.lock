@@ -308,7 +308,6 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< HEAD
             "version": "v5.2.14",
             "source": {
                 "type": "git",
@@ -319,18 +318,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/ce63ba53d4891bdbb5e1aaeced1b5dd34edbc86f",
                 "reference": "ce63ba53d4891bdbb5e1aaeced1b5dd34edbc86f",
-=======
-            "version": "v5.2.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "93dc5b0089eef468157fd7200e575c3861ec59a5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/93dc5b0089eef468157fd7200e575c3861ec59a5",
-                "reference": "93dc5b0089eef468157fd7200e575c3861ec59a5",
->>>>>>> ede52738fd9d2cc6eec2c53a91f7a35157c9048d
                 "shasum": ""
             },
             "require": {
@@ -445,11 +432,11 @@
                 "framework",
                 "laravel"
             ],
-<<<<<<< HEAD
+
             "time": "2016-02-03 14:19:04"
-=======
-            "time": "2016-01-13 20:29:10"
->>>>>>> ede52738fd9d2cc6eec2c53a91f7a35157c9048d
+
+
+
         },
         {
             "name": "league/flysystem",
@@ -756,7 +743,6 @@
         },
         {
             "name": "paragonie/random_compat",
-<<<<<<< HEAD
             "version": "1.1.6",
             "source": {
                 "type": "git",
@@ -767,18 +753,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/paragonie/random_compat/zipball/e6f80ab77885151908d0ec743689ca700886e8b0",
                 "reference": "e6f80ab77885151908d0ec743689ca700886e8b0",
-=======
-            "version": "1.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
->>>>>>> ede52738fd9d2cc6eec2c53a91f7a35157c9048d
                 "shasum": ""
             },
             "require": {
@@ -813,11 +787,7 @@
                 "pseudorandom",
                 "random"
             ],
-<<<<<<< HEAD
             "time": "2016-01-29 16:19:52"
-=======
-            "time": "2016-01-06 13:31:20"
->>>>>>> ede52738fd9d2cc6eec2c53a91f7a35157c9048d
         },
         {
             "name": "psr/log",
